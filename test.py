@@ -6,8 +6,12 @@ import random
 random_number = random.randint(1,50)
 print(random_number)
 
+# 자연수 1,2,3,4,5 / 정수(integer): -2,-1,0,1,2,3,4
 # 내가 1부터 50까지의 수 중 하나를 골른다고 가정했을 때 너가 고른 수 보다 큰지 작은지 말해줘.
-
+my_number = int(input("지율이 숫자: "))
+print(my_number)
+if random_number == my_number:
+    print("저어어어어어어어어어어어어어어어어어어어어엉답")
 # 만약 내가 답을 틀렸을때 다시 기회를 줘. 기회는 틀린 것 까지 합해서 총 5번 이야.
 
 # 만약 50보다 더 큰 수,작은 수를 적으면 기회는 사라지지 않지만 너가 경고를 줘, 이 기회는 세번이고, 세번이 넘어가면 게임을 끝내줘
